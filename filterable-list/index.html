@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="center-align">
+      My Contacts
+    </h1>
+    <input type="text" id="filterInput" placeholder="Search name...">
+    <ul id="names" class="collection with-header">
+      <li class="collection-header">
+        <h5>A</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">Abe</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Anna</a>
+      </li>
+      <li class="collection-header">
+        <h5>J</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">Jon</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Jorge</a>
+      </li>
+      <li class="collection-header">
+        <h5>D</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">Daniel</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Diego</a>
+      </li>
+      <li class="collection-header">
+        <h5>N</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">Nancy</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Nicole</a>
+      </li>
+    </ul>
+  </div>
+
+  <script>
+    let filterInput = document.getElementById('filterInput');
+
+    filterInput.addEventListener('keyup', filterNames);
+
+    function filterNames() {
+      //Get value of input
+      let filterValue = document.getElementById('filterInput').value.toUpperCase();
+      console.log(filterValue);
+
+      // Get UL names
+      let ul = document.getElementById('names');
+      let li = names.querySelectorAll('li.collection-item');
+      for(let i=0;i<li.length;i++) {
+        let a = li[i].getElementsByTagName('a')[0];
+        if(a.innerHTML.toUpperCase().indexOf(filterValue) > -1) {
+          li[i].style.display = '';
+        } else {
+          li[i].style.display = 'none';
+        }
+      }
+    }
+  </script>
+</body>
+</html>
