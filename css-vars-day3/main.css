@@ -1,3 +1,26 @@
+/*declaring variables*/
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+  --width: 100px;
+  --mspace: 5px;
+  --border: 5px;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+  width: var(--width);
+  margin: var(--mspace) auto;
+  border-radius: var(--border);
+}
+
+.h1 {
+  color: var(--base);
+}
+
 body {
   text-align: center;
   background: #193549;
