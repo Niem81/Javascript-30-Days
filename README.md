@@ -17,3 +17,8 @@ Wes Bos' Javascript 30 Days Tutorial - And extras
 - Multiple exercises using JS Array methods
 - Filter, reduce, map, sort
 - Other way to console log array data with console.table()
+
+5. Flex Panels
+
+
+6. Ajax Type Ahead

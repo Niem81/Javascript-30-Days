@@ -1,0 +1,31 @@
+html {
+  background: #45ddff;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+  font-size: 20px;
+  font-weight: 200;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+input {
+  padding: 20px;
+  width: 100%;
+}
+
+input.search {
+  border: 10px solid #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 2px rgba(0, 0, 0, 0.2);
+  font-size: 40px;
+  left: -10%;
+  margin: 0;
+  outline: 0;
+  position: relative;
+  text-align: center;
+  top: 10px;
+  width: 120%;
+  z-index: 2;
+}
