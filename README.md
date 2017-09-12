@@ -34,3 +34,7 @@ Wes Bos' Javascript 30 Days Tutorial - And extras
 11. HTML5 Video Player
 - Applying style to embed video Player
 - Getting track of html5 video properties
+
+12. Key Sequence
+
+13. Slide in on Scroll
