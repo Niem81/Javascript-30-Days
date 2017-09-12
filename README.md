@@ -22,3 +22,15 @@ Wes Bos' Javascript 30 Days Tutorial - And extras
 
 
 6. Ajax Type Ahead
+
+7. Array cardio Day 2
+
+8. HTML5 Canvas Drawing
+
+9. Using Dev Tools - Chrome
+
+10. Check Multiple Checkboxes
+
+11. HTML5 Video Player
+- Applying style to embed video Player
+- Getting track of html5 video properties
