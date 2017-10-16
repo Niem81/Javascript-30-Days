@@ -38,3 +38,8 @@ Wes Bos' Javascript 30 Days Tutorial - And extras
 12. Key Sequence
 
 13. Slide in on Scroll
+
+14. Reference Copy
+
+15. LocalStorage and Event Delegation
+- Using e.preventDefault() stops the page from reloading. By default, using a form will reload the page after sending the data 
