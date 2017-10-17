@@ -42,4 +42,6 @@ Wes Bos' Javascript 30 Days Tutorial - And extras
 14. Reference Copy
 
 15. LocalStorage and Event Delegation
-- Using e.preventDefault() stops the page from reloading. By default, using a form will reload the page after sending the data 
+- Using e.preventDefault() stops the page from reloading. By default, using a form will reload the page after sending the data
+- localStorage may seem like an Object but it is simply a key value store and you may only use strings in local storage
+- As localStorage can only handle strings, we need to stringify the data before sending it like an object.
