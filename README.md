@@ -49,3 +49,5 @@ Wes Bos' Javascript 30 Days Tutorial - And extras
 16. Text Shadow on Mouse Move
 - offsetTop: returns the top position (in pixels) relative to the top of the offsetParent element. It includes: top position and margin of elmnt; top padding, scrollbar, and border of the offsetParent element
 - offsetLeft: same as offsetTop it returns the left position relative to left side the offsetParent element.
+
+17. Sorting Band Names without articles
