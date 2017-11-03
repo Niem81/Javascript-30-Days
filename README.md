@@ -51,3 +51,7 @@ Wes Bos' Javascript 30 Days Tutorial - And extras
 - offsetLeft: same as offsetTop it returns the left position relative to left side the offsetParent element.
 
 17. Sorting Band Names without articles
+- Using sort to change order of bands but using function to not consider words such as a, the, an.
+- Adding input element to add bands and UPDATE sorted Bands.
+- Missing corrections to show cleaner code (own solution).
+- Added functionality based on Day15 Ex to add band an keep list sorted.
