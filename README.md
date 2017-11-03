@@ -45,3 +45,7 @@ Wes Bos' Javascript 30 Days Tutorial - And extras
 - Using e.preventDefault() stops the page from reloading. By default, using a form will reload the page after sending the data
 - localStorage may seem like an Object but it is simply a key value store and you may only use strings in local storage
 - As localStorage can only handle strings, we need to stringify the data before sending it like an object.
+
+16. Text Shadow on Mouse Move
+- offsetTop: returns the top position (in pixels) relative to the top of the offsetParent element. It includes: top position and margin of elmnt; top padding, scrollbar, and border of the offsetParent element
+- offsetLeft: same as offsetTop it returns the left position relative to left side the offsetParent element.
